@@ -1,7 +1,8 @@
-package com.example.musicstorehngrupo5;
+package com.example.musicstorehngrupo5.activities;
 
 import android.os.Bundle;
 
+import com.example.musicstorehngrupo5.R;
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
