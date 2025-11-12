@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.grupos;
+package com.example.musicstorehngrupo5.activities.grupos;
 
 import android.content.DialogInterface;
 import android.content.Intent;

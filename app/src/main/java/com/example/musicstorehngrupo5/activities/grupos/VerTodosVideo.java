@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.grupos;
+package com.example.musicstorehngrupo5.activities.grupos;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
