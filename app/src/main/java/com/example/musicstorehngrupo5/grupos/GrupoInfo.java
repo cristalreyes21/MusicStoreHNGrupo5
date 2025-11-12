@@ -35,7 +35,7 @@ import com.example.musicstorehngrupo5.Utilidades.Token.token;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ActivityGrupoInfo extends AppCompatActivity implements InfomacionGeneralGrupoAsyncTask.DataFetchListener {
+public class GrupoInfo extends AppCompatActivity implements InfomacionGeneralGrupoAsyncTask.DataFetchListener {
 
     DrawerLayout drawerLayout;
     ImageButton openMenuButton;
