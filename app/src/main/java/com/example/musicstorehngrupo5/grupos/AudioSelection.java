@@ -11,10 +11,10 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
-import com.example.proyectogrupo1musicstore.Adapters.AudioPersonalAdapter;
-import com.example.proyectogrupo1musicstore.Models.musicItem;
-import com.example.proyectogrupo1musicstore.NetworkTasks.GruposNetworkTasks.obtenerAudiosPersonalesAsyncTask;
-import com.example.proyectogrupo1musicstore.R;
+import com.example.musicstorehngrupo5.adapters.AudioPersonalAdapter;
+import com.example.musicstorehngrupo5.models.musicItem;
+import com.example.musicstorehngrupo5.networkTasks.GruposNetworkTasks.obtenerAudiosPersonalesAsyncTask;
+import com.example.musicstorehngrupo5.R;
 
 import java.util.ArrayList;
 import java.util.List;
