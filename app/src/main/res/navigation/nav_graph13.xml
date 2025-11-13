@@ -2,12 +2,12 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph11"
+    android:id="@+id/nav_graph13"
     app:startDestination="@id/FirstFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.musicstorehngrupo5.NADAA.FirstFragment"
+        android:name="com.example.musicstorehngrupo5.FirstFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.musicstorehngrupo5.NADAA.SecondFragment"
+        android:name="com.example.musicstorehngrupo5.SecondFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
