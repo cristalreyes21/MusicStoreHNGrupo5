@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicStoreHNGrupo5">
         <activity
+            android:name=".NADAA.videoselection"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".NADAA.nuevogrupointegrantes"
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
