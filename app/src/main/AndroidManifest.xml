@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicStoreHNGrupo5">
         <activity
+            android:name=".NADOTAA.navigationmenu"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".NADOTA.custom_playlistreproductoritem"
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
