@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicStoreHNGrupo5">
         <activity
+            android:name=".NOTOTAAAA.item_subirvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NOTOTAAAA.item_subirmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NOTOTAAAA.exo_playbackcontrolview"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".NADOTAA.navigationmenu"
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
