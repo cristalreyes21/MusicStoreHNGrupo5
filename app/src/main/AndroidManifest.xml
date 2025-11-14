@@ -12,6 +12,54 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicStoreHNGrupo5">
         <activity
+            android:name=".NADOTA.custom_playlistreproductoritem"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_modificacionplaylistitem"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemvideos"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemusuariosbuscar"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemnuevogrupointegrantes"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemnuevogrupo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemgruposperfilfavoritos"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemgruposbuscar"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemaudiospersonal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitemagregarplaylistmusic"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADOTA.custom_listitem"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".NADITA.carousel_itemvideo"
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
