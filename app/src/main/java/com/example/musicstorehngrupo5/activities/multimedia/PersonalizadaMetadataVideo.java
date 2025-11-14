@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.multimedia;
+package com.example.musicstorehngrupo5.activities.multimedia;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -40,36 +40,9 @@ import static com.example.musicstorehngrupo5.Activities.Multimedia.Activity_Subi
 import static com.example.musicstorehngrupo5.Activities.Multimedia.Activity_SubirVideo.nombreVideo;
 import static com.example.musicstorehngrupo5.Activities.Multimedia.Activity_SubirVideo.videoBase64;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.graphics.Color;
-import android.graphics.Typeface;
-import android.net.Uri;
-import android.os.Bundle;
-import android.text.InputFilter;
-import android.text.Spanned;
-import android.util.Log;
-import android.util.TypedValue;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-
-import androidx.annotation.NonNull;
-import androidx.core.content.res.ResourcesCompat;
-import androidx.fragment.app.DialogFragment;
-
 import com.example.musicstorehngrupo5.NetworkTasks.Multimedia.Activity_SubirVideoAsyncTask;
 import com.example.musicstorehngrupo5.R;
 import com.example.musicstorehngrupo5.Utilidades.Imagenes.FileUtils;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class PersonalizadaMetadataVideo extends DialogFragment {
     //ArrayList para almacenar el valor de cada id de los Edittexts

@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.multimedia;
+package com.example.musicstorehngrupo5.activities.multimedia;
 
 import android.content.Context;
 import android.content.Intent;
@@ -22,25 +22,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.KeyEvent;
-import android.view.View;
-import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.musicstorehngrupo5.Adapters.CustomAdapterMusicaVideos;
 import com.example.musicstorehngrupo5.Models.buscarAudioMusica;
@@ -49,9 +30,6 @@ import com.example.musicstorehngrupo5.R;
 import com.example.musicstorehngrupo5.Utilidades.Navegacion.NavigationClickListener;
 import com.example.musicstorehngrupo5.Utilidades.Token.JwtDecoder;
 import com.example.musicstorehngrupo5.Utilidades.Token.token;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class BuscarMusica extends AppCompatActivity {
 

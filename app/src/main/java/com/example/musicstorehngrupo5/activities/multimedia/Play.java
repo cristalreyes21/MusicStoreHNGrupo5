@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.multimedia;
+package com.example.musicstorehngrupo5.activities.multimedia;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;

@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.multimedia;
+package com.example.musicstorehngrupo5.activities.multimedia;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

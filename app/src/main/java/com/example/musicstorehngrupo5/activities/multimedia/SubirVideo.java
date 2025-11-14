@@ -1,4 +1,4 @@
-package com.example.musicstorehngrupo5.multimedia;
+package com.example.musicstorehngrupo5.activities.multimedia;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -39,38 +39,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.Manifest;
-import android.app.AlertDialog;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.MediaMetadataRetriever;
-import android.net.Uri;
-import android.os.Build;
-import android.os.Bundle;
-import android.provider.MediaStore;
-import android.provider.Settings;
-import android.util.Base64;
-import android.util.Log;
-import android.view.View;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.musicstorehngrupo5.NetworkTasks.Multimedia.Activity_SubirVideoAsyncTask;
 import com.example.musicstorehngrupo5.NetworkTasks.Multimedia.BuscarVideoAsyncTask;
@@ -80,13 +48,6 @@ import com.example.musicstorehngrupo5.Utilidades.Imagenes.FileUtils;
 import com.example.musicstorehngrupo5.Utilidades.Token.JwtDecoder;
 import com.example.musicstorehngrupo5.Utilidades.Token.token;
 import com.example.musicstorehngrupo5.VideoAdapter;
-
-import java.io.ByteArrayOutputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 public class SubirVideo extends AppCompatActivity {
 
