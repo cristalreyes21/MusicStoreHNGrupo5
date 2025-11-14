@@ -12,6 +12,198 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicStoreHNGrupo5">
         <activity
+            android:name=".NADITA.carousel_itemvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADITA.carousel_itemintegrantes"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.custom_playlistreproductor"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.carousel_itemplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.videoselection"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.videoselection"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.vertodosmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.vertodosvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.vertodosintegrantes"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.verplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.unirsegrupo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.subirvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.subirmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.reproductor"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.reprotuctovideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.registrarse"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena3"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena2"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena1"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.principal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.playlist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.play"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadoconfirmacioncorrecta"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadoadvertencia"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadametadata"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.perfilpersonal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.nuevogrupointegrantes"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.nuevogrupodetalles"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.modificarplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.main"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.login"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.gruposbuscar"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.grupoprincipal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.grupoinfo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.editarplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.editarperfil"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.editargrupo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.crearplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".Nada.confirmacambiocontrasena"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".Nada.codigoverificacioncuenta"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".CambiarcontraseñaActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".buscarvideos"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".buscarprincipal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".buscarmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".audioselection"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".archivopersonales"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".agregarplaylistmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".activities.pantallaprincipal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
