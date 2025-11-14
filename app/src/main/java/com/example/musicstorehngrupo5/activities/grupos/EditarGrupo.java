@@ -113,7 +113,7 @@ public class EditarGrupo extends AppCompatActivity implements InformacionGrupoEd
 
         //Obtiene la lista de integrantes
         String ulrIntegranes = "https://phpclusters-156700-0.cloudclusters.net/obtenerIntegrantesGrupo.php";
-        new FetchMemberDetailsEditarAsyncTask(ActivityEditarGrupo.this, adapter, progressDialog, 2).execute(ulrIntegranes, String.valueOf(idgrupo));
+        new FetchMemberDetailsEditarAsyncTask(EditarGrupo.this, adapter, progressDialog, 2).execute(ulrIntegranes, String.valueOf(idgrupo));
 
         // Listeners para botones de atras
         imagebuttonAtras.setOnClickListener(new View.OnClickListener() {
@@ -143,12 +143,12 @@ public class EditarGrupo extends AppCompatActivity implements InformacionGrupoEd
             @Override
             public void onClick(View v) {
                 if (txtDescripcion.getText().toString().isEmpty()) {
-                    Toast.makeText(ActivityEditarGrupo.this, "Porfavor Ingrese una Descripción para el Grupo", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(EditarGrupo.this, "Porfavor Ingrese una Descripción para el Grupo", Toast.LENGTH_SHORT).show();
                     txtDescripcion.setError("Ingrese una Descripción");
                 } else {
                     // Show confirmation dialog
                     ConfirmationDialog.showConfirmationDialog(
-                            ActivityEditarGrupo.this, // Replace with your activity or fragment context
+                            EditarGrupo.this, // Replace with your activity or fragment context
                             "Confirmación",
                             "¿Está seguro de que desea realizar estos cambios?",
                             new DialogInterface.OnClickListener() {
