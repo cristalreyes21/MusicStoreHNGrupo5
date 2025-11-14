@@ -16,6 +16,90 @@
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
         <activity
+            android:name=".NADAA.vertodosmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.vertodosvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.vertodosintegrantes"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.verplaylist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.unirsegrupo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.subirvideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.subirmusica"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.reproductor"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.reprotuctovideo"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.registrarse"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena3"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena2"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.recuperarcontrasena1"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.principal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.playlist"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.play"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadoconfirmacioncorrecta"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadoadvertencia"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.personalizadametadata"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.perfilpersonal"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
+            android:name=".NADAA.videoselection"
+            android:exported="false"
+            android:theme="@style/Theme.MusicStoreHNGrupo5" />
+        <activity
             android:name=".NADAA.nuevogrupointegrantes"
             android:exported="false"
             android:theme="@style/Theme.MusicStoreHNGrupo5" />
