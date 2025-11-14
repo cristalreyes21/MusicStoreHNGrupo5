@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_mainItemGruposBuscar"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context=".NADOTA.custom_listitemgruposbuscar">
+    android:layout_height="95dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/white"
+    android:padding="16dp">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewImageBuscar"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
+        <ImageView
+            android:id="@+id/imageviewListItemImageGruposBuscar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/botongruposmenudespegable" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    </androidx.cardview.widget.CardView>
 
-    <include layout="@layout/content_custom_listitemgruposbuscar" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <TextView
+        android:id="@+id/txtListItemNombreGrupoGruposBuscar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:fontFamily="@font/fuente_jost_global"
+        android:text="@string/nombreGrupo"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayoutGruposBuscar"
+        app:layout_constraintStart_toEndOf="@+id/cardviewImageBuscar"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/txtListItemCreadoGruposBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fuente_jost_global"
+        android:text="@string/creador"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayoutGruposBuscar"
+        app:layout_constraintStart_toEndOf="@+id/cardviewImageBuscar"
+        app:layout_constraintTop_toBottomOf="@+id/txtListItemNombreGrupoGruposBuscar" />
+
+    <TextView
+        android:id="@+id/txtListItemIntegranteGruposBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fuente_jost_global"
+        android:text="@string/integrantes"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayoutGruposBuscar"
+        app:layout_constraintStart_toEndOf="@+id/cardviewImageBuscar"
+        app:layout_constraintTop_toBottomOf="@+id/txtListItemCreadoGruposBuscar" />
+
+    <LinearLayout
+        android:id="@+id/iconLayoutGruposBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/imageviewGruposBuscarUnirse"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="Icon 3"
+            android:visibility="visible"
+            android:src="@drawable/iconoanadirseagrupo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

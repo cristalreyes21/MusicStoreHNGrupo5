@@ -1,33 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_mainItem"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context=".NADOTA.custom_listitemagregarplaylistmusic">
+    android:layout_height="105dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginBottom="10dp"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imageviewListItemImagesss"
+        android:layout_width="62dp"
+        android:layout_height="57dp"
+        android:contentDescription="Image"
+        android:src="@drawable/iconomusicas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fitsSystemWindows="true">
-
-        <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize" />
-
-    </com.google.android.material.appbar.AppBarLayout>
-
-    <include layout="@layout/content_custom_listitemagregarplaylistmusic" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <TextView
+        android:id="@+id/txtListItemNombreMusicaAudios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:text="@string/nombresmusica"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/layout_mainItem"
+        app:layout_constraintStart_toEndOf="@+id/imageviewListItemImagesss"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayout" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/txtListItemCreadoMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/autor"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/txtListItemNombreMusicaAudios"
+        app:layout_constraintStart_toEndOf="@+id/imageviewListItemImagesss"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayout" />
+
+    <TextView
+        android:id="@+id/txtListtGeneros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genero"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/txtListItemCreadoMusica"
+        app:layout_constraintStart_toEndOf="@+id/imageviewListItemImagesss"
+        app:layout_constraintEnd_toStartOf="@+id/iconLayout" />
+
+    <LinearLayout
+        android:id="@+id/iconLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/imageviewMusicaIconoFavoritos"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="Icon 3"
+            android:src="@drawable/favoritodesmarcado" />
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
