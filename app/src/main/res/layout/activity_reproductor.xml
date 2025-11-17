@@ -123,7 +123,7 @@
                 android:layout_toRightOf="@+id/playbtns"
                 android:background="@drawable/icons_detener_24">
 
-            </Button>
+        </Button>
             <Button
                 android:id="@+id/prevbtnss"
                 android:layout_toLeftOf="@+id/playbtns"

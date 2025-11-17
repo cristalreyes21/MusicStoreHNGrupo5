@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.musicstorehngrupo5.activities.grupos.ActivityChat;
+import com.example.musicstorehngrupo5.Activities.Grupos.ActivityChat;
 import com.example.musicstorehngrupo5.Activities.Grupos.ActivityEditarGrupo;
 import com.example.musicstorehngrupo5.Activities.Grupos.ActivityGrupoInfo;
 import com.example.musicstorehngrupo5.Models.vistaDeGrupo;

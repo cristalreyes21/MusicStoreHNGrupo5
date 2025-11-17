@@ -10,8 +10,6 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.musicstorehngrupo5.Models.buscarAudioMusica;
-import com.example.musicstorehngrupo5.Models.buscarGrupo;
-import com.example.musicstorehngrupo5.Models.vistaMusicaVideo;
 import com.example.musicstorehngrupo5.R;
 
 import java.util.List;

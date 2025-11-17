@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#EEECECEC</color>
+    <color name="underline">#99A0A0A0</color>
+    <color name="button">#00aae2</color>
+    <color name="white2">#dfd7dd</color>
+    <color name="green">#4caf50</color>
+    <color name="elementBackground">#E7E6E6</color>
+    <color name="lightGray90">#E6CCCCCC</color>
+    <color name="black90">#E6000000</color>
+    <color name="negro">#00abe3</color>
+    <color name="whiteseguir">#fff</color>
+    <color name="azulseguido">#3CA7E6</color>
+
 </resources>

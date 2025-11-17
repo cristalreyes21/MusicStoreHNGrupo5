@@ -11,7 +11,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.musicstorehngrupo5.Activities.Grupos.ActivityGruposBuscar;
 import com.example.musicstorehngrupo5.Activities.Perfil.Activity_PerfilPersonal;
 import com.example.musicstorehngrupo5.Models.integrantesItem;
 import com.example.musicstorehngrupo5.R;

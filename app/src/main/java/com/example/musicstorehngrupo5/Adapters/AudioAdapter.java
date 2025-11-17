@@ -12,7 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.musicstorehngrupo5.activities.Reproductores.ActivityReproductor;
+import com.example.musicstorehngrupo5.Activities.Reproductores.ActivityReproductor;
 import com.example.musicstorehngrupo5.Models.audioItem;
 import com.example.musicstorehngrupo5.NetworkTasks.Multimedia.UpdateCancionFavoritaAsyncTask;
 import com.example.musicstorehngrupo5.R;
@@ -74,7 +74,7 @@ public class AudioAdapter extends RecyclerView.Adapter<AudioAdapter.AudioViewHol
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), ActivityReproductor.class);
-                // intent.putExtra("imagen", item.getImageResId());
+               // intent.putExtra("imagen", item.getImageResId());
                 intent.putExtra("musicaUrl", item.getUrl());
                 intent.putExtra("name", item.getItemName());
                 v.getContext().startActivity(intent);

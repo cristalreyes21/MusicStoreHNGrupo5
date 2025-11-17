@@ -98,23 +98,23 @@ public class CustomAdapterPlay extends RecyclerView.Adapter<CustomAdapterPlay.Cu
     }
 
     public static class CustomViewHolder extends RecyclerView.ViewHolder {
-        TextView nombrePlayList; // TextView para mostrar el nombre de la playlist
-        TextView creadoPor; // TextView para mostrar el creador de la playList
-        TextView biogra; // TextView para mostrar el creador de la playList
-        ImageView image; // ImageView para mostrar una imagen asociada a la playlist
+            TextView nombrePlayList; // TextView para mostrar el nombre de la playlist
+            TextView creadoPor; // TextView para mostrar el creador de la playList
+             TextView biogra; // TextView para mostrar el creador de la playList
+            ImageView image; // ImageView para mostrar una imagen asociada a la playlist
 
-        public CustomViewHolder(View itemView) {
-            super(itemView);
-            nombrePlayList = itemView.findViewById(R.id.txtListItemNombrePlayList); // Asocia la vista de nombre de la playlist
-            creadoPor = itemView.findViewById(R.id.txtListItemCreadoplaylist); // Asocia la vista del creador de la playlist
-            biogra = itemView.findViewById(R.id.txtListItemBiografia); // Asocia la vista de la biografia de la playlist
-            image = itemView.findViewById(R.id.imageviewListItemImageplaylist); // Asocia la vista de la imagen asociada a la playlist
+            public CustomViewHolder(View itemView) {
+                super(itemView);
+                nombrePlayList = itemView.findViewById(R.id.txtListItemNombrePlayList); // Asocia la vista de nombre de la playlist
+                creadoPor = itemView.findViewById(R.id.txtListItemCreadoplaylist); // Asocia la vista del creador de la playlist
+                biogra = itemView.findViewById(R.id.txtListItemBiografia); // Asocia la vista de la biografia de la playlist
+                image = itemView.findViewById(R.id.imageviewListItemImageplaylist); // Asocia la vista de la imagen asociada a la playlist
 
+            }
         }
+
+
+
+
     }
-
-
-
-
-}
 

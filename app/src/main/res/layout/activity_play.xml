@@ -132,77 +132,77 @@
                     android:background="@drawable/fondoblancoparaeditardatosperfil"
                     android:layout_gravity="center"/>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:paddingHorizontal="70dp"
+                android:paddingVertical="20dp">
+
+                <TextView
+                    android:id="@+id/NombrePlayList"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:paddingHorizontal="70dp"
-                    android:paddingVertical="20dp">
+                    android:text="@string/EscribaNombrePlayList"
+                    android:textColor="#D3D3D3"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/fuente_jost_global"
+                    android:textSize="15sp" />
 
-                    <TextView
-                        android:id="@+id/NombrePlayList"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/EscribaNombrePlayList"
-                        android:textColor="#D3D3D3"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/fuente_jost_global"
-                        android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/txtNombrePlayList"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:labelFor="@+id/NombrePlayList"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
-                    <EditText
-                        android:id="@+id/txtNombrePlayList"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/edittext"
-                        android:importantForAutofill="no"
-                        android:inputType="text"
-                        android:labelFor="@+id/NombrePlayList"
-                        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="30dp" />
+                <TextView
+                    android:id="@+id/ingreseNuevaContrasena"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/EscribaBiografa"
+                    android:textColor="#D3D3D3"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/fuente_jost_global"
+                    android:textSize="15sp" />
 
-                    <TextView
-                        android:id="@+id/ingreseNuevaContrasena"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/EscribaBiografa"
-                        android:textColor="#D3D3D3"
-                        android:textStyle="bold"
-                        android:fontFamily="@font/fuente_jost_global"
-                        android:textSize="15sp" />
+                <EditText
+                    android:id="@+id/txtBiografia"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:labelFor="@id/ingreseNuevaContrasena"
+                    tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
-                    <EditText
-                        android:id="@+id/txtBiografia"
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/edittext"
-                        android:importantForAutofill="no"
-                        android:inputType="text"
-                        android:labelFor="@id/ingreseNuevaContrasena"
-                        tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp"/>
-                    <FrameLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/ImageViewSubirArchi"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:importantForAccessibility="no"
+                        android:onClick="clickInsertar"
+                        android:src="@drawable/abrirarchivo" />
 
-                        <ImageView
-                            android:id="@+id/ImageViewSubirArchi"
-                            android:layout_width="150dp"
-                            android:layout_height="150dp"
-                            android:layout_gravity="center"
-                            android:importantForAccessibility="no"
-                            android:onClick="clickInsertar"
-                            android:src="@drawable/abrirarchivo" />
+                </FrameLayout>
 
-                    </FrameLayout>
-
-                </LinearLayout>
+            </LinearLayout>
 
             </FrameLayout>
 

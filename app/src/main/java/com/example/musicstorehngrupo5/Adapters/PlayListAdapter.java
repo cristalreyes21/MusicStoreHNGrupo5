@@ -11,7 +11,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.musicstorehngrupo5.Models.PlayListItem;
-import com.example.musicstorehngrupo5.Models.integrantesItem;
 import com.example.musicstorehngrupo5.R;
 
 import java.util.List;
